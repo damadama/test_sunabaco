@@ -1,0 +1,199 @@
+/* リセットcss */
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: none;
+font-style: normal;
+text-align: left;
+zoom: 1;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+table {
+border-collapse: collapse;
+font-family: inherit;
+}
+h1,h2,h3,h4,h5 {
+font-size: 100%;
+font-weight: normal;
+line-height: 1;
+}
+input,textarea,select {
+font-family: inherit;
+font-size: 16px;
+}
+input[type="button"],input[type="text"],input[type="submit"] {
+-webkit-appearance: none;
+border-radius: 0;
+}
+textarea {
+resize: none;
+-webkit-appearance: none;
+border-radius: 0;
+}
+th,td {
+border-collapse: collapse;
+}
+table th,table td {
+white-space: nowrap;
+}
+ul,ol {
+list-style-type: none;
+}
+img {
+vertical-align: text-bottom;
+vertical-align: -webkit-baseline-middle;
+max-width: 100%;
+height: auto;
+width /***/:auto;
+}
+
+/* リセットcssここまで */
+
+
+
+header{
+    color: azure;
+    background-color:rebeccapurple;
+    /* height: 50px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+    font-style: italic;
+}
+
+div{
+    height: 50px;
+}
+
+header p{
+    display:inline-block;
+    /* text-align: center; */
+    /* margin-right: 20vw; */
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#head_img{
+    height: auto;
+    width: 100%;
+}
+
+h1{
+    /*中央寄せ */
+    text-align: center;
+    color: rgb(191, 78, 223);
+    /* 位置の指定 */
+    /* position: fixed;
+    left: 50%; */
+    /* bottom: 90%; */
+    font-size: xxx-large;
+    font-family: 'Times New Roman', Times, serif;
+
+    height: 120px;
+    padding: 50px;
+
+    /* 背景に画像を設定する */
+    background-image: url(../img/pickles.jpg);
+    /* 背景の画像のサイズをいい感じにする */
+    background-size: cover;
+
+    text-shadow: #fff 2px 0, #fff -2px 0, #fff 0 -2px, #fff 0 2px, #fff 2px 2px, #fff -2px 2px, #fff 2px -2px, #fff -2px -2px, #fff 1px 2px, #fff -1px 2px, #fff 1px -2px, #fff -1px -2px, #fff 2px 1px, #fff -2px 1px, #fff 2px -1px, #fff -2px -1px, rgba(0, 0, 0, .5) 3px 3px 3px;
+
+}
+
+
+
+/* h2の色を変更する */
+h2{
+    color: rgb(53, 78, 239);
+    text-align: center;
+    padding: 20px;
+}
+
+body{
+    background-color:rgb(238, 221, 243);
+}
+
+body p{
+    text-align: center;
+}
+
+img{
+    height: 120px;
+}
+
+section{
+    margin-top: 20px;
+    background-color: rgb(234, 119, 238);
+    height: 250px;
+}
+
+section div{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#card_area{
+    display: flex;
+
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#card_area div{
+    width: 33%;
+}
+
+.card_area_p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#map div{
+    width: 50%;
+}
+
+#map{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: space-around;
+    height: 200px;
+}
+
+.access p{
+    text-align: center;
+}
+
+
+
+
+footer{
+    margin-top: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    
+}
+
+
+
+
+
